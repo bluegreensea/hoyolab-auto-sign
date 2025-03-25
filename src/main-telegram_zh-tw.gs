@@ -90,9 +90,9 @@ function autoSignFunction({
 
   var sleepTime = 0
   const httpResponses = []
-  for (const url of urls) {
+  for (const urlnheaders of urlsnheaders) {
     Utilities.sleep(sleepTime);
-    httpResponses.push(UrlFetchApp.fetch(url, options));
+    httpResponses.push(UrlFetchApp.fetch(urlnheaders.url, { ...options, headers: urlnheaders.headers }));
     sleepTime = 1000;
 }
   for (const [i, hoyolabResponse] of httpResponses.entries()) {
