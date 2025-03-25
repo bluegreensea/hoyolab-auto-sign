@@ -21,7 +21,7 @@ const urlDict = {
   Genshin: 'https://sg-hk4e-api.hoyolab.com/event/sol/sign?lang=en-us&act_id=e202102251931481',
   Star_Rail: 'https://sg-public-api.hoyolab.com/event/luna/os/sign?lang=en-us&act_id=e202303301540311',
   Honkai_3: 'https://sg-public-api.hoyolab.com/event/mani/sign?lang=en-us&act_id=e202110291205111',
-  Tears_of_Themis: 'https://sg-public-api.hoyolab.com/event/luna/os/sign?lang=en-us&act_id=e202308141137581',
+  Tears_of_Themis: 'https://sg-public-api.hoyolab.com/event/nxx/os/sign?lang=en-us&act_id=e202202281857121',
   Zenless_Zone_Zero: 'https://sg-public-api.hoyolab.com/event/luna/zzz/os/sign?lang=en-us&act_id=e202406031448091'
 };
 
@@ -50,7 +50,7 @@ const headerDict = {
 
   },
   Tears_of_Themis: {
-
+    'x-rpc-signgame': 'nxx',
   },
   Zenless_Zone_Zero: {
     'x-rpc-signgame': 'zzz',
@@ -94,8 +94,8 @@ function autoSignFunction({
 
   let response = `Check-in completed for ${accountName}`;
 
-  var sleepTime = 0
-  const httpResponses = []
+  var sleepTime = 0;
+  const httpResponses = [];
   for (const urlnheaders of urlsnheaders) {
     Utilities.sleep(sleepTime);
     httpResponses.push(UrlFetchApp.fetch(urlnheaders.url, { ...options, headers: urlnheaders.headers }));
