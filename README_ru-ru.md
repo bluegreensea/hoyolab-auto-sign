@@ -9,7 +9,7 @@
     <br><a href="/README_zh-tw.md">繁體中文</a>　<a href="/README.md">English</a>　<b>Русский</b>
 </p>
 
-Легковесный, безопасный и бесплатный скрипт, который автоматически собирает ежедневные награды HoYoLAB.
+Легковесный, безопасный и бесплатный скрипт, который автоматически собирает ежедневные награды HoYoLAB.\
 Поддерживает Genshin Impact, Honkai Impact 3rd, Honkai: Star Rail, Tears of Themis и Zenless Zone Zero. Поддерживает нескольких учетных записей.
 
 ## Преимущества
@@ -215,9 +215,10 @@ const telegramBotToken = "6XXXXXXXXX:AAAAAAAAAAXXXXXXXXXX8888888888Peko"
 
 ## Журнал изменений
 
-2022-12-30 Проект запущен.
-2023-04-27 Добавлена поддержка Honkai Impact 3rd и Honkai: Star Rail.
-2023-04-27 Добавлен переключатель для уведомления Discord.
-2023-05-12 Обновление процесса gettoken[#2](https://github.com/canaria3406/hoyolab-auto-sign/pull/2).
-2023-05-12 Добавлена поддержка уведомлений Telegram[#3](https://github.com/canaria3406/hoyolab-auto-sign/pull/3).
-2023-05-13 Поддержка нескольких учетных записей HoYoLAB[#4](https://github.com/canaria3406/hoyolab-auto-sign/pull/4)
+2022-12-30 Проект запущен.\
+2023-04-27 Добавлена поддержка Honkai Impact 3rd и Honkai: Star Rail.\
+2023-04-27 Добавлен переключатель для уведомления Discord.\
+2023-05-12 Обновление процесса gettoken[#2](https://github.com/canaria3406/hoyolab-auto-sign/pull/2).\
+2023-05-12 Добавлена поддержка уведомлений Telegram[#3](https://github.com/canaria3406/hoyolab-auto-sign/pull/3).\
+2023-05-13 Поддержка нескольких учетных записей HoYoLAB[#4](https://github.com/canaria3406/hoyolab-auto-sign/pull/4)\
+2024-07-10 Добавлена поддержка Zenless Zone Zero.
