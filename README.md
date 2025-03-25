@@ -45,7 +45,7 @@ const profiles = [
 ];
 ```
 
-> HoYoLAB has changed the rules for tokens on July 2023, switching from the previous "ltoken" and "ltuid" to "ltoken_v2" and "ltuid_v2".\
+> HoYoLAB has changed the rules for tokens on July 2023, switching from the previous "ltoken" and "ltuid" to "ltoken_v2" and "ltuid_v2".
 
 > [!IMPORTANT]
 > HoYoLAB has changed the cookie to HttpOnly cookie. It is no longer possible to read the cookies by using the getToken.js code.\
@@ -60,9 +60,9 @@ const profiles = [
 
    After entering the [HoYoLAB check-in page](https://www.hoyolab.com/circles), press F12 to enter the console.\
    ~~Paste the following code and run it to get the token. Copy the token and fill it in "quotes".~~
- \
+
    > HoYoLAB has changed the cookie to HttpOnly cookie. It is no longer possible to read the cookies by using the getToken.js code.\
-   > Please use the method of manually copying the cookie to obtain the ltoken_v2 and ltuid_v2.\
+   > Please use the method of manually copying the cookie to obtain the ltoken_v2 and ltuid_v2.
 
 2. **genshin**
 
@@ -146,7 +146,7 @@ const telegramBotToken = "6XXXXXXXXX:AAAAAAAAAAXXXXXXXXXX8888888888Peko"
 2. **myTelegramID** - Please enter your Telegram ID.
 
    Use the `/getid` command to find your Telegram user ID by messaging [@IDBot](https://t.me/myidbot).\
-   Copy your Telegram ID which like `123456780` and fill it in "quotes".\
+   Copy your Telegram ID which like `123456780` and fill it in "quotes".
 
 3. **telegramBotToken** - Please enter your Telegram Bot Token.
 
@@ -159,7 +159,7 @@ const telegramBotToken = "6XXXXXXXXX:AAAAAAAAAAXXXXXXXXXX8888888888Peko"
 
 ## Demo
 If the auto check in process is success, it will send "OK".\
-If you have already check in today, it will send "Traveler/Trailblazer/Captain, you've already checked in today"\
+If you have already check in today, it will send "Traveler/Trailblazer/Captain, you've already checked in today"
 
 <details>
 <summary><b>Single HoYoLAB account auto check-in with Discord notification and ping.</b></summary>

@@ -44,11 +44,11 @@ const profiles = [
 ];
 ```
 
-> Hoyolab在2023年7月更改了token的規則，從以往的"ltoken"和"ltuid"更改成"ltoken_v2"和"ltuid_v2"。\
+> Hoyolab在2023年7月更改了token的規則，從以往的"ltoken"和"ltuid"更改成"ltoken_v2"和"ltuid_v2"。
 
 > [!IMPORTANT]
 > HoYoLAB 已將 cookie 變更為 HttpOnly cookie。未來將無法再使用 getToken.js 讀取 cookie。\
-> 請改用手動方式複製cookie，以取得ltoken_v2和ltuid_v2。\
+> 請改用手動方式複製cookie，以取得ltoken_v2和ltuid_v2。
 
 <details>
 <summary><b>hoyolab 設定</b></summary>
@@ -59,7 +59,7 @@ const profiles = [
    ~~貼上以下程式碼後執行即可取得token，請注意token包含分號;，須一併複製並貼入"括號內"~~
 
    > HoYoLAB 已將 cookie 變更為 HttpOnly cookie。未來將無法再使用 getToken.js 讀取 cookie。\
-   > 請改用手動方式複製cookie，以取得ltoken_v2和ltuid_v2。\
+   > 請改用手動方式複製cookie，以取得ltoken_v2和ltuid_v2。
 
 2. **genshin**
 
@@ -150,7 +150,7 @@ const telegramBotToken = "6XXXXXXXXX:AAAAAAAAAAXXXXXXXXXX8888888888Peko"
 
 ## Demo
 若自動簽到完成，則傳送 OK\
-若今天已簽到過，則傳送 旅行者/開拓者/艦長，你已經簽到過了~\
+若今天已簽到過，則傳送 旅行者/開拓者/艦長，你已經簽到過了~
 
 <details>
 <summary><b>範例 單帳號自動簽到、進行 Discord 通知、進行 Discord tag</b></summary>
